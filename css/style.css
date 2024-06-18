@@ -1,0 +1,536 @@
+/*ESTILOS GLOBALES*/
+p {margin-bottom: 0;}
+
+li { list-style-type: none; font-weight: bold;}
+
+ul, ol {
+    padding-left: 0;
+}
+/*ESTILOS GLOBALES*/
+
+
+/*HEADER - NAVBAR*/
+.navbar__eze {
+    height: 105px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar .logo{
+    width: 85px;
+}
+
+.nav-link {
+    margin: 0 25px;
+}
+
+.navbar-toggler {
+    background-color: rgba(64, 70, 73, 0.795);
+}
+/*HEADER - NAVBAR*/
+
+
+/*CAROUSEL*/
+.carousel-inner {
+    margin-top: 105px;
+}
+/*CAROUSEL*/
+
+
+/*SECTION INFO GRAL - ENVIOS ETC..*/
+.box__info {
+    padding: 20px;
+}
+
+.bg__cards {
+    border-radius: 4px;
+    background-color: rgb(245, 241, 241);
+}
+
+.info__col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.info__col i {
+    font-size: 36px;
+}
+/*SECTION INFO GRAL - ENVIOS ETC..*/
+
+
+/*SECTION ANIMALS*/
+.container__animals {
+    padding: 20px;
+}
+
+.container__animals .cachorros {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/*SECTION ANIMALS*/
+
+
+/*PROMOS DEL MES*/
+.bg__promos {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+}
+/*PROMOS DEL MES*/
+
+
+/*GALERIA PRODUCTOS*/
+.filas__galerias {
+    margin: 15px;
+}
+
+.card {
+    position: relative;
+    transition: 0.1s ease-in;
+}
+
+.card:hover{
+    border: 1px solid rgb(39, 37, 37);
+    cursor: pointer;  
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    height: 50px;
+}
+
+.card__button {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.card .off {
+    margin: 4px;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(238, 46, 46);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.card .off__agotado {
+    text-align: center;
+    width: 54%;
+    margin: 40px 5px;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(32, 25, 25);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.card .off__envio {
+    text-align: center;
+    margin: -70px 70px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(26, 179, 64);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/*GALERIA PRODUCTOS*/
+
+
+/*SECTION MARCAS*/
+.container__marcas__col {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__marcas img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;  
+}
+/*SECTION MARCAS*/
+
+
+/*REGISTRATE*/
+.registrate__input {
+    width: 280px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.registrate__input:focus {
+    outline: none;
+}
+/*REGISTRATE*/
+
+
+/*FOOOTER*/
+.footer__box {
+    padding: 25px;
+    background-color: rgb(216, 208, 208)
+}
+
+.footer__box .footer__box__logo {
+    width: 190px;
+}
+
+.footer__box ul {
+    padding-left: 0;
+}
+
+.footer__box li {
+    padding: 4px 0;
+    color: rgb(87, 82, 82);
+}
+
+.footer__box iframe {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+/*FOOOTER*/
+
+
+
+/*PAGE PERROS*/
+.banner__perro {
+    margin-top: 105px;
+    width: 100vw;
+}   
+
+.banner__perro img {
+    max-height: 398px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.perros__title {
+    box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
+}
+
+.barra__lateral {
+    background-color: #e9edc9;
+}
+
+.barra__lateral__categorias {
+    margin: 30px;
+    padding: 5px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.barra__lateral__categorias ul li {
+    margin: 10px 0;   
+}
+
+.barra__lateral__categorias ul li a {
+    color: rgb(43, 44, 46);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.barra__lateral__categorias ul li a:hover {
+    color: rgb(42, 103, 226);
+}
+
+.card .off__envio__perros {
+    margin: -68px 34px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(26, 179, 64);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/*PAGE PERROS*/
+
+
+
+/*PAGE GATOS*/
+.banner__perro__gato {
+    margin-top: 105px;
+    width: 100vw;
+}
+
+.banner__perro__gato img {
+    max-height: 398px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gatos__title {
+    box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
+}
+/*PAGE GATOS*/
+
+
+
+/*PAGE - SERVICIOS*/
+.container__veterinaria img {
+    width: 550px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-left: 7px solid #81c3d7;
+}
+
+.container__veterinaria__servicios ul li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.especialidades__title {
+    color: aliceblue;
+    padding: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.container__especialidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.box__especialidad img {
+    border-radius: 15px;
+    width: 85px;
+}
+
+.box__especialidad {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.box__especialidad p {
+    padding-bottom: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*PAGE - SERVICIOS*/
+
+
+
+/*PAGINA SUCURSALES*/
+.container__sucursales {
+    position: relative;
+    height: 620px;
+    overflow-y: scroll;
+}
+
+
+.container__sucursales article {
+    margin: 20px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.container__sucursales article:hover {
+    background-color: #e9edc9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.container__sucursales__iframe iframe {
+    width: 100%;
+    height: 620px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+    margin-left: 35px;   
+}
+
+.sucursales__icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(37, 35, 35);
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 15px;
+}
+/*PAGINA SUCURSALES*/
+
+
+
+/*PAGINA CONTACTO*/
+.container__contactanos {
+    margin-top: 105px;
+    box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
+}
+
+
+.bg__main {
+    background-image: linear-gradient(rgba(5,7,12,0.50), rgba(5,7,12,0.50)),
+    url(../assets/contacto/fondomaincontacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__formulario {
+    margin-top: 50px;
+    height: 550px;
+    width: 500px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px; 
+    transition: .3s ease-in;
+}
+
+.container__formulario:hover {
+    height: 555px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;    
+}
+
+.logo__form {
+    width: 70px;    
+}
+
+
+.container__formulario input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(#ddcfd8,#fffcdc);
+}
+
+.container__formulario input, textarea:focus {
+    outline: none;
+}
+
+
+.container__formulario label {
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 18px;    
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 992px) {
+    /*PAGE HOME*/
+    .box__info {
+        display: none;
+    }
+
+    .container__galeria {
+        width: 90%;
+    }
+
+    .box__marcas {
+        display: none;
+    }
+
+    .logo {
+        width: 70px !important;
+    }
+    .carousel-inner, .container__contactanos {
+        margin-top: 96px;
+    }
+     .navbar__eze {
+        height: auto;
+    }
+
+    .filas__galerias {
+        margin: 30px 60px;     
+    }
+
+    .footer__box .footer__box__logo {
+        width: 150px;
+    }
+
+    /*PAGE PERROS*/
+    .banner__perro__gato {
+        margin-top: 96px;
+    }
+    .barra__lateral {
+        display: none;
+    }
+    .galeria__perros__gatos {
+        margin: 0 30px;
+    }
+    /*PAGE SERVICIOS*/
+    .container__especialidades {
+        flex-direction: column;
+    }
+    /*PAGE SUCURSALES*/
+    .container__sucursales__iframe iframe {
+        width: 100%;
+        height: 400px;
+        margin-top: 55px;
+    }
+    .container__sucursales__iframe iframe {
+        margin-left: 0px;   
+    }
+    
+}   
+
+
+
+@media only screen and (max-width: 576px) {
+    /*PAGE CONTACTO*/
+    .container__formulario {
+        width: 80%;
+        height: 90vh;
+    }   
+
+    .container__formulario {
+        height: 600px ;
+    }
+
+    .container__formulario:hover {
+        height: 605px;  
+    }
+
+    .logo__form {
+        margin-bottom: 20px;    
+    }
+
+    /*PAGE HOME*/
+    .navbar__eze {
+        height: auto;
+    }
+
+    .footer__box iframe {
+        display: none;
+    }
+
+    .footer__box .footer__box__logo {
+        width: 100px;   
+    }
+
+    /*PAGE SUCURSALES*/
+    .container__sucursales__iframe iframe {
+        width: 100%;
+        height: 300px;
+        margin-top: 55px;
+    }
+}   
