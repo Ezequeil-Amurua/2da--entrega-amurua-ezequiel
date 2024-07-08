@@ -25,7 +25,7 @@
     }
 
     .filas__galerias {
-        margin: 30px 35px;     
+        margin: 25px 10px;     
     }
 
     .footer__box .footer__box__logo {
@@ -62,7 +62,7 @@
 @media only screen and (max-width: 576px) {
     /*PAGE CONTACTO*/
     .container__formulario {
-        width: 80%;
+        width: 90%;
         height: 90vh;
     }   
 
@@ -72,6 +72,14 @@
 
     .container__formulario:hover {
         height: 605px;  
+    }
+
+    .caja__enviar {
+        gap: 10px;
+    }
+
+    .caja__enviar button {
+       margin: 10px;
     }
 
     .logo__form {
@@ -91,6 +99,10 @@
         }
     }
     
+    .registrate__input {
+        width: 190px;
+        @include rellenos (6px, 5px);
+    }
 
     .footer__box iframe {
         display: none;
@@ -101,9 +113,19 @@
     }
 
     /*PAGE SUCURSALES*/
+    .container__sucursales__iframe{
+        margin: 40px 20px;
+    }
     .container__sucursales__iframe iframe {
         width: 100%;
         height: 300px;
-        margin-top: 55px;
     }
+    .section__sucursales {
+        margin: 0rem !important;
+    }
+    /*PAGE SERVICIOS*/
+    .servicios {
+        padding: 1rem !important;
+    }
+
 }   
