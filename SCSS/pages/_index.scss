@@ -1,7 +1,6 @@
 /*HEADER - NAVBAR*/
 .navbar__eze {
-    height: 105px;
-    width: 100%;
+    @include sizes (100%, 105px);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -48,9 +47,7 @@
 }
 
 .info__col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include caja-flex (flex, center, center);
     column-gap: 25px;
 }
 
@@ -67,8 +64,7 @@
 
 .container__animals .cachorros {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    @include sizes (100px, 100px);
     object-fit: cover;
 }
 /*SECTION ANIMALS*/
@@ -111,8 +107,7 @@
 }
 
 .card .off {
-    margin: 4px;
-    padding: 5px;
+    @include rellenos (5px, 4px);
     font-weight: bold;
     position: absolute;
     background-color: $promos;
@@ -148,14 +143,11 @@
 /*SECTION MARCAS*/
 .container__marcas__col {
     padding: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include caja-flex (flex, center, space-around);
 }
 
 .container__marcas img {
-    width: 100px;
-    height: 100px;
+    @include sizes (125px, 100px);
     object-fit: contain;  
 }
 /*SECTION MARCAS*/
@@ -164,9 +156,8 @@
 /*REGISTRATE*/
 .registrate__input {
     width: 280px;
-    padding: 6px;
+    @include rellenos (6px, 10px);
     border-radius: 10px;
-    margin: 10px;
 
     &:focus {
         outline: none;
@@ -178,7 +169,6 @@
 /*FOOOTER*/
 .footer__box {
     padding: 25px;
-    background-color: $bg-footer;
 
     &__logo {
         width: 190px;
@@ -204,8 +194,7 @@
 
     &__mapa {
         border-radius: 5px;
-        width: 200px;
-        height: 200px;
+        @include sizes (200px, 200px);
     }
     
 }

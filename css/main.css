@@ -1,3 +1,15 @@
+.bg-gris {
+  background-color: rgb(216, 208, 208);
+}
+
+.bg-azulado {
+  background-color: rgb(201, 201, 240);
+}
+
+.bg-negro {
+  background-color: rgb(19, 18, 18);
+}
+
 /*ESTILOS GLOBALES*/
 p {
   margin-bottom: 0;
@@ -15,8 +27,8 @@ ul, ol {
 /*ESTILOS GLOBALES*/
 /*HEADER - NAVBAR*/
 .navbar__eze {
-  height: 105px;
   width: 100%;
+  height: 105px;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -114,8 +126,8 @@ ul, ol {
 }
 
 .card .off {
-  margin: 4px;
   padding: 5px;
+  margin: 4px;
   font-weight: bold;
   position: absolute;
   background-color: rgb(238, 46, 46);
@@ -156,7 +168,7 @@ ul, ol {
 }
 
 .container__marcas img {
-  width: 100px;
+  width: 125px;
   height: 100px;
   object-fit: contain;
 }
@@ -166,8 +178,8 @@ ul, ol {
 .registrate__input {
   width: 280px;
   padding: 6px;
-  border-radius: 10px;
   margin: 10px;
+  border-radius: 10px;
 }
 .registrate__input:focus {
   outline: none;
@@ -177,7 +189,6 @@ ul, ol {
 /*FOOOTER*/
 .footer__box {
   padding: 25px;
-  background-color: rgb(216, 208, 208);
 }
 .footer__box__logo {
   width: 190px;
@@ -238,7 +249,7 @@ ul, ol {
 }
 
 .barra__lateral__categorias ul li a {
-  color: rgb(43, 44, 46);
+  color: rgb(87, 82, 82);
   text-decoration: none;
   font-size: 17px;
 }
@@ -297,8 +308,8 @@ ul, ol {
 
 .container__especialidades {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   margin: 40px;
 }
 
@@ -310,9 +321,9 @@ ul, ol {
 .box__especialidad {
   margin: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .box__especialidad p {
@@ -330,9 +341,9 @@ ul, ol {
 }
 
 .container__sucursales article {
+  padding: 20px;
   margin: 20px;
   background-color: lightgray;
-  padding: 20px;
   border-radius: 10px;
 }
 .container__sucursales article:hover {
@@ -351,8 +362,8 @@ ul, ol {
 
 .sucursales__icons {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   color: aliceblue;
   background-color: #198754;
   border-radius: 5px;
@@ -376,8 +387,8 @@ ul, ol {
 
 .container__formulario {
   margin-top: 50px;
-  height: 550px;
   width: 500px;
+  height: 550px;
   padding: 50px;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
   border-radius: 10px;
@@ -433,7 +444,7 @@ ul, ol {
     height: auto;
   }
   .filas__galerias {
-    margin: 30px 60px;
+    margin: 30px 35px;
   }
   .footer__box .footer__box__logo {
     width: 150px;
@@ -446,7 +457,7 @@ ul, ol {
     display: none;
   }
   .galeria__perros__gatos {
-    margin: 0 30px;
+    margin: 0 5px;
   }
   /*PAGE SERVICIOS*/
   .container__especialidades {
@@ -480,6 +491,13 @@ ul, ol {
   /*PAGE HOME*/
   .navbar__eze {
     height: auto;
+  }
+  .container__animals {
+    padding: 15px;
+    margin: 0;
+  }
+  .container__animals .cachorros {
+    padding: 10px;
   }
   .footer__box iframe {
     display: none;

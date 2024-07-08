@@ -1,7 +1,6 @@
 /*PAGE - SERVICIOS*/
 .container__veterinaria img {
-    width: 550px;
-    height: 310px;
+    @include sizes (550px, 310px);
     object-fit: cover;
     border-radius: 10px;
     border-left: 7px solid $btn;
@@ -19,9 +18,7 @@
 }
 
 .container__especialidades {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include caja-flex (flex, center,space-around);
     margin: 40px;
 }
 
@@ -32,10 +29,8 @@
 
 .box__especialidad {
     margin: 20px;
-    display: flex;
+    @include caja-flex (flex, center, center);
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   
 }
 

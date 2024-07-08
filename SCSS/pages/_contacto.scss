@@ -15,8 +15,7 @@
 
 .container__formulario {
     margin-top: 50px;
-    height: 550px;
-    width: 500px;
+    @include sizes (500px, 550px);
     padding: 50px;
     box-shadow: $shadow-title;
     border-radius: 10px; 

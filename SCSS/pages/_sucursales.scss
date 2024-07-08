@@ -7,9 +7,8 @@
 
 
 .container__sucursales article {
-    margin: 20px;
+    @include rellenos (20px, 20px);
     background-color: lightgray;
-    padding: 20px;
     border-radius: 10px; 
 
     &:hover {
@@ -20,17 +19,14 @@
 }
 
 .container__sucursales__iframe iframe {
-    width: 100%;
-    height: 620px;
+    @include sizes (100%, 620px);
     border-radius: 5px;
     box-shadow: $shadow-title;
     margin-left: 35px;   
 }
 
 .sucursales__icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include caja-flex (flex, center, space-evenly);
     color: aliceblue;
     background-color: $btn;
     border-radius: 5px;

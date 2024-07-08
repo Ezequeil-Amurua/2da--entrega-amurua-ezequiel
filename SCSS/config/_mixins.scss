@@ -1,0 +1,17 @@
+//TAMAÑOS
+@mixin sizes ($width, $heigth) {
+    width: $width;
+    height: $heigth;
+}
+
+@mixin rellenos ($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+//FLEX
+@mixin caja-flex ($display, $align, $justify) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
