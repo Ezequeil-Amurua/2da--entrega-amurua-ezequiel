@@ -1,0 +1,101 @@
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 992px) {
+    /*PAGE HOME*/
+    .box__info {
+        display: none;
+    }
+
+    .container__galeria {
+        width: 90%;
+    }
+
+    .box__marcas {
+        display: none;
+    }
+
+    .logo {
+        width: 70px !important;
+    }
+    .carousel-inner, .container__contactanos {
+        margin-top: 96px;
+    }
+     .navbar__eze {
+        height: auto;
+    }
+
+    .filas__galerias {
+        margin: 30px 60px;     
+    }
+
+    .footer__box .footer__box__logo {
+        width: 150px;
+    }
+
+    /*PAGE PERROS*/
+    .banner__perro__gato {
+        margin-top: 96px;
+    }
+    .barra__lateral {
+        display: none;
+    }
+    .galeria__perros__gatos {
+        margin: 0 30px;
+    }
+    /*PAGE SERVICIOS*/
+    .container__especialidades {
+        flex-direction: column;
+    }
+    /*PAGE SUCURSALES*/
+    .container__sucursales__iframe iframe {
+        width: 100%;
+        height: 400px;
+        margin-top: 55px;
+    }
+    .container__sucursales__iframe iframe {
+        margin-left: 0px;   
+    }
+    
+}   
+
+
+
+@media only screen and (max-width: 576px) {
+    /*PAGE CONTACTO*/
+    .container__formulario {
+        width: 80%;
+        height: 90vh;
+    }   
+
+    .container__formulario {
+        height: 600px ;
+    }
+
+    .container__formulario:hover {
+        height: 605px;  
+    }
+
+    .logo__form {
+        margin-bottom: 20px;    
+    }
+
+    /*PAGE HOME*/
+    .navbar__eze {
+        height: auto;
+    }
+
+    .footer__box iframe {
+        display: none;
+    }
+
+    .footer__box .footer__box__logo {
+        width: 100px;   
+    }
+
+    /*PAGE SUCURSALES*/
+    .container__sucursales__iframe iframe {
+        width: 100%;
+        height: 300px;
+        margin-top: 55px;
+    }
+}   

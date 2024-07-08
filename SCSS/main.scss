@@ -1,0 +1,13 @@
+//RESET
+@import './config/vars';
+@import './config/reset';
+
+//PAGES
+@import 'pages/index.scss';
+@import './pages/perros-gatos';
+@import './pages/servicios';
+@import './pages/sucursales';
+@import './pages/contacto';
+
+//MEDIA QUERIES
+@import './mq';

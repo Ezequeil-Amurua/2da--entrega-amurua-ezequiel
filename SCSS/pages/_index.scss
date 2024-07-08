@@ -1,0 +1,215 @@
+/*HEADER - NAVBAR*/
+.navbar__eze {
+    height: 105px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    .logo{
+        width: 85px;
+
+        &:hover {
+            padding: 2px;
+        }
+    }
+
+    .nav-link {
+        margin: 0 22px;
+
+        &:hover {
+            color: $nav-link;
+        }
+    }
+
+    .navbar-toggler {
+        background-color: rgba(46, 49, 51, 0.795);
+    }
+}
+
+/*HEADER - NAVBAR*/
+
+
+/*CAROUSEL*/
+.carousel-inner {
+    margin-top: 105px;
+}
+/*CAROUSEL*/
+
+
+/*SECTION INFO GRAL - ENVIOS ETC..*/
+.box__info {
+    padding: 20px;
+}
+
+.bg__cards {
+    border-radius: 4px;
+    background-color: rgb(245, 241, 241);
+}
+
+.info__col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.info__col i {
+    font-size: 36px;
+}
+/*SECTION INFO GRAL - ENVIOS ETC..*/
+
+
+/*SECTION ANIMALS*/
+.container__animals {
+    padding: 20px;
+}
+
+.container__animals .cachorros {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/*SECTION ANIMALS*/
+
+
+/*PROMOS DEL MES*/
+.bg__promos {
+    background-color: $back-primary;
+    border-radius: 5px;
+    box-shadow: $shadow-title;
+}
+/*PROMOS DEL MES*/
+
+
+/*GALERIA PRODUCTOS*/
+.filas__galerias {
+    margin: 15px;
+}
+
+.card {
+    position: relative;
+    transition: 0.1s ease-in;
+
+    &:hover{
+        border: 1px solid rgb(39, 37, 37);
+        cursor: pointer;  
+    }
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    height: 50px;
+}
+
+.card__button {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.card .off {
+    margin: 4px;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    background-color: $promos;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.card .off__agotado {
+    text-align: center;
+    width: 54%;
+    margin: 40px 5px;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+    background-color: $agotado;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.card .off__envio {
+    text-align: center;
+    margin: -70px 70px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    background-color: $free;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/*GALERIA PRODUCTOS*/
+
+
+/*SECTION MARCAS*/
+.container__marcas__col {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__marcas img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;  
+}
+/*SECTION MARCAS*/
+
+
+/*REGISTRATE*/
+.registrate__input {
+    width: 280px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 10px;
+
+    &:focus {
+        outline: none;
+    }
+}
+/*REGISTRATE*/
+
+
+/*FOOOTER*/
+.footer__box {
+    padding: 25px;
+    background-color: $bg-footer;
+
+    &__logo {
+        width: 190px;
+    }
+
+    ul {
+        padding-left: 0;
+    
+        li {
+            padding: 4px 0;
+            color: rgb(87, 82, 82);
+            
+            &:hover {
+                cursor: pointer;
+                color: $btn;
+                box-shadow: $shadow-title;
+                padding: 4px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+
+    &__mapa {
+        border-radius: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+
+
+/*FOOOTER*/

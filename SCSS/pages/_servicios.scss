@@ -1,0 +1,47 @@
+/*PAGE - SERVICIOS*/
+.container__veterinaria img {
+    width: 550px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-left: 7px solid $btn;
+}
+
+.container__veterinaria__servicios ul li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.especialidades__title {
+    color: aliceblue;
+    padding: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.container__especialidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.box__especialidad img {
+    border-radius: 15px;
+    width: 85px;
+}
+
+.box__especialidad {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.box__especialidad p {
+    padding-bottom: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*PAGE - SERVICIOS*/

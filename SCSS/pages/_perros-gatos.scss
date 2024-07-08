@@ -1,0 +1,73 @@
+/*PAGE PERROS*/
+.banner__perro {
+    margin-top: 105px;
+    width: 100vw;
+}   
+
+.banner__perro img {
+    max-height: 398px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.perros__title {
+    box-shadow: $shadow-dog-cat;
+}
+
+.barra__lateral {
+    background-color: #e9edc9;
+}
+
+.barra__lateral__categorias {
+    margin: 30px;
+    padding: 5px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.barra__lateral__categorias ul li {
+    margin: 10px 0;   
+}
+
+.barra__lateral__categorias ul li a {
+    color: rgb(43, 44, 46);
+    text-decoration: none;
+    font-size: 17px;
+
+    &:hover {
+        color: $back-primary;
+    }
+}
+
+
+.card .off__envio__perros {
+    margin: -68px 34px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    background-color: $free;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/*PAGE PERROS*/
+
+/*PAGE GATOS*/
+.banner__perro__gato {
+    margin-top: 105px;
+    width: 100vw;
+}
+
+.banner__perro__gato img {
+    max-height: 398px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gatos__title {
+    box-shadow: $shadow-dog-cat;
+}
+/*PAGE GATOS*/
