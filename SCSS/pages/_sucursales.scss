@@ -1,4 +1,10 @@
 /*PAGINA SUCURSALES*/
+.sucursales__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
 .container__sucursales {
     position: relative;
     height: 620px;

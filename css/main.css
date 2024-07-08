@@ -7,7 +7,11 @@
 }
 
 .bg-negro {
-  background-color: rgb(19, 18, 18);
+  background-color: rgba(46, 49, 51, 0.795);
+}
+
+.bg-blanco {
+  background-color: rgb(245, 241, 241);
 }
 
 /*ESTILOS GLOBALES*/
@@ -93,6 +97,10 @@ ul, ol {
 /*SECTION ANIMALS*/
 /*PROMOS DEL MES*/
 .bg__promos {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
   background-color: #0d6efd;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
@@ -228,9 +236,26 @@ ul, ol {
 }
 
 .perros__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
   box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
 }
 
+@keyframes move {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .barra__lateral {
   background-color: #e9edc9;
 }
@@ -282,11 +307,22 @@ ul, ol {
 }
 
 .gatos__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
   box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
 }
 
 /*PAGE GATOS*/
 /*PAGE - SERVICIOS*/
+.servicios__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
 .container__veterinaria img {
   width: 550px;
   height: 310px;
@@ -301,6 +337,10 @@ ul, ol {
 }
 
 .especialidades__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
   color: aliceblue;
   padding: 10px 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -334,6 +374,13 @@ ul, ol {
 
 /*PAGE - SERVICIOS*/
 /*PAGINA SUCURSALES*/
+.sucursales__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
 .container__sucursales {
   position: relative;
   height: 620px;
@@ -373,6 +420,13 @@ ul, ol {
 
 /*PAGINA SUCURSALES*/
 /*PAGINA CONTACTO*/
+.contacto__title {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
 .container__contactanos {
   margin-top: 105px;
   box-shadow: rgba(0, 0, 255, 0.397) 0px 7px 29px 0px;

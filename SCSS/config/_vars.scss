@@ -11,12 +11,12 @@ $bg-footer : rgb(216, 208, 208);
 $shadow-title : rgba(0, 0, 0, 0.75) 0px 5px 15px;
 $shadow-dog-cat : rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
 
-//MAPAS
-
+//MAPA
 $bgs:(
     'gris' : rgb(216, 208, 208),
     'azulado' : rgb(201, 201, 240),
-    'negro' : rgb(19, 18, 18),
+    'negro' : rgba(46, 49, 51, 0.795),
+    'blanco' : rgb(245, 241, 241),
 );
 
 @each $name, $color in $bgs{

@@ -1,4 +1,11 @@
 /*PAGE - SERVICIOS*/
+.servicios__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
 .container__veterinaria img {
     @include sizes (550px, 310px);
     object-fit: cover;
@@ -12,6 +19,10 @@
 }
 
 .especialidades__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
     color: aliceblue;
     padding: 10px 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;

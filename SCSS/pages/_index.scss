@@ -22,7 +22,7 @@
     }
 
     .navbar-toggler {
-        background-color: rgba(46, 49, 51, 0.795);
+        background-color: map-get($bgs, negro);
     }
 }
 
@@ -72,6 +72,10 @@
 
 /*PROMOS DEL MES*/
 .bg__promos {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
     background-color: $back-primary;
     border-radius: 5px;
     box-shadow: $shadow-title;

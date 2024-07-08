@@ -12,8 +12,27 @@
 }
 
 .perros__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
     box-shadow: $shadow-dog-cat;
 }
+
+
+@keyframes move {
+    0% {
+      transform: scale(0.2);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 .barra__lateral {
     background-color: #e9edc9;
@@ -68,6 +87,10 @@
 }
 
 .gatos__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
     box-shadow: $shadow-dog-cat;
 }
 /*PAGE GATOS*/

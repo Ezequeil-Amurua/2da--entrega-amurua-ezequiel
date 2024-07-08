@@ -1,4 +1,11 @@
 /*PAGINA CONTACTO*/
+.contacto__title {
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
 .container__contactanos {
     margin-top: 105px;
     box-shadow: rgba(0, 0, 255, 0.397) 0px 7px 29px 0px;
