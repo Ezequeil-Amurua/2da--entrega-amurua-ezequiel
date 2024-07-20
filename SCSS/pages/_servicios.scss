@@ -18,6 +18,13 @@
     margin: 15px 0;
 }
 
+.button__vet:hover {
+    background-color: $btn;
+    transform: scale(1.1);
+    border: none;
+
+}
+
 .especialidades__title {
     animation-name: move;
     animation-duration: 1.5s;

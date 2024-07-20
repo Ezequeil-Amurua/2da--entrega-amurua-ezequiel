@@ -47,7 +47,7 @@ ul, ol {
   margin: 0 22px;
 }
 .navbar__eze .nav-link:hover {
-  color: #42a5ac;
+  color: #56d1da;
 }
 .navbar__eze .navbar-toggler {
   background-color: rgba(46, 49, 51, 0.795);
@@ -65,16 +65,16 @@ ul, ol {
   padding: 20px;
 }
 
-.bg__cards {
-  border-radius: 4px;
-  background-color: rgb(245, 241, 241);
-}
-
 .info__col {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 25px;
+  transition: 0.3s ease-in;
+}
+.info__col:hover {
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .info__col i {
@@ -88,10 +88,17 @@ ul, ol {
 }
 
 .container__animals .cachorros {
+  position: relative;
   border-radius: 50%;
   width: 100px;
   height: 100px;
   object-fit: cover;
+  transition: 0.3s ease-in;
+}
+.container__animals .cachorros:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 3px solid #0d6efd;
 }
 
 /*SECTION ANIMALS*/
@@ -105,9 +112,36 @@ ul, ol {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
 }
+.bg__promos:hover {
+  cursor: pointer;
+  background-color: rgb(5, 129, 5);
+}
 
 /*PROMOS DEL MES*/
 /*GALERIA PRODUCTOS*/
+.card__eze {
+  view-timeline-name: --reveal;
+  animation-name: cards;
+  animation-fill-mode: both;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
+}
+
+@keyframes cards {
+  from {
+    opacity: 0;
+    scale: 10%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+.bg__cards {
+  border-radius: 4px;
+  background-color: rgb(245, 241, 241);
+}
+
 .filas__galerias {
   margin: 15px;
 }
@@ -131,6 +165,11 @@ ul, ol {
 .card__button {
   font-size: 20px;
   font-weight: bold;
+}
+.card__button:hover {
+  background-color: rgb(32, 25, 25);
+  border: none;
+  color: #56d1da;
 }
 
 .card .off {
@@ -173,6 +212,9 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.container__marcas__col:hover {
+  cursor: pointer;
 }
 
 .container__marcas img {
@@ -334,6 +376,12 @@ ul, ol {
 .container__veterinaria__servicios ul li {
   font-size: 18px;
   margin: 15px 0;
+}
+
+.button__vet:hover {
+  background-color: #198754;
+  transform: scale(1.1);
+  border: none;
 }
 
 .especialidades__title {

@@ -41,14 +41,15 @@
     padding: 20px;
 }
 
-.bg__cards {
-    border-radius: 4px;
-    background-color: rgb(245, 241, 241);
-}
-
 .info__col {
     @include caja-flex (flex, center, center);
     column-gap: 25px;
+    transition: 0.3s ease-in;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 }
 
 .info__col i {
@@ -63,10 +64,20 @@
 }
 
 .container__animals .cachorros {
+    position: relative;
     border-radius: 50%;
     @include sizes (100px, 100px);
     object-fit: cover;
+    transition: 0.3s ease-in;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        border: 3px solid $back-primary;
+    }
 }
+
+
 /*SECTION ANIMALS*/
 
 
@@ -79,11 +90,42 @@
     background-color: $back-primary;
     border-radius: 5px;
     box-shadow: $shadow-title;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(5, 129, 5);
+    }
 }
 /*PROMOS DEL MES*/
 
 
 /*GALERIA PRODUCTOS*/
+.card__eze {
+    view-timeline-name: --reveal;
+    animation-name: cards;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 25% cover 50%;
+
+}
+
+@keyframes cards {
+    from {
+        opacity: 0;
+        scale: 10%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.bg__cards {
+    border-radius: 4px;
+    background-color: rgb(245, 241, 241);
+}
+
 .filas__galerias {
     margin: 15px;
 }
@@ -108,6 +150,12 @@
 .card__button {
     font-size: 20px;
     font-weight: bold; 
+
+    &:hover {
+        background-color: $agotado;
+        border: none;
+        color: $nav-link;
+    }
 }
 
 .card .off {
@@ -148,6 +196,10 @@
 .container__marcas__col {
     padding: 35px;
     @include caja-flex (flex, center, space-around);
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .container__marcas img {
