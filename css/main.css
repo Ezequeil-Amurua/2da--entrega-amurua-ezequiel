@@ -523,7 +523,7 @@ ul, ol {
 .container__formulario:hover {
   height: 555px;
   cursor: pointer;
-  box-shadow: rgba(25, 138, 49, 0.801) 0px 5px 15px;
+  box-shadow: #56d1da 0px 5px 15px;
 }
 
 .logo__form {

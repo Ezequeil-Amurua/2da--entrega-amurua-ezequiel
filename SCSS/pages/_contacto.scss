@@ -31,7 +31,7 @@
     &:hover {
         height: 555px;
         cursor: pointer;
-        box-shadow: rgba(25, 138, 49, 0.801) 0px 5px 15px;    
+        box-shadow: $nav-link 0px 5px 15px;  
     }
 }
 
