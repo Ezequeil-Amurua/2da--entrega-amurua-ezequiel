@@ -46,7 +46,8 @@
     width: 100%;
     border-radius: 10px;
     border: none;
-    background-image: linear-gradient(#ddcfd8,#fffcdc);
+    background-color: transparent;
+    border-bottom: 2px solid $back-primary;
 
     &:focus {
         outline: none;
