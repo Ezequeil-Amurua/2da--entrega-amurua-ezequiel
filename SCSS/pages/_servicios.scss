@@ -6,11 +6,16 @@
     animation-timing-function: ease-out;
 }
 
+.servicios {
+    box-shadow: $shadow-dog-cat;
+}
+
 .container__veterinaria img {
     @include sizes (550px, 310px);
     object-fit: cover;
     border-radius: 10px;
     border-left: 7px solid $btn;
+    box-shadow: $shadow-title;
 }
 
 .container__veterinaria__servicios ul li {

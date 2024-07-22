@@ -365,12 +365,17 @@ ul, ol {
   animation-timing-function: ease-out;
 }
 
+.servicios {
+  box-shadow: rgba(65, 65, 66, 0.397) 0px 7px 29px 0px;
+}
+
 .container__veterinaria img {
   width: 550px;
   height: 310px;
   object-fit: cover;
   border-radius: 10px;
   border-left: 7px solid #198754;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
 }
 
 .container__veterinaria__servicios ul li {
@@ -430,6 +435,7 @@ ul, ol {
 }
 
 .container__sucursales {
+  border-radius: 25px;
   position: relative;
   height: 620px;
   overflow-y: scroll;
@@ -466,6 +472,17 @@ ul, ol {
   margin-top: 15px;
 }
 
+.bg__expo {
+  border-radius: 5px;
+  margin-bottom: 50px;
+  border: 1px solid rgb(104, 102, 102);
+}
+
+.expo__vete {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+}
+
 /*PAGINA SUCURSALES*/
 /*PAGINA CONTACTO*/
 .contacto__title {
@@ -481,6 +498,7 @@ ul, ol {
 }
 
 .bg__main {
+  height: 900px;
   background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/contacto/fondomaincontacto.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -488,7 +506,6 @@ ul, ol {
 }
 
 .container__formulario {
-  margin-top: 50px;
   width: 500px;
   height: 550px;
   padding: 50px;
@@ -522,6 +539,14 @@ ul, ol {
   margin-bottom: 10px;
   color: aliceblue;
   font-size: 18px;
+}
+
+.info__general {
+  background-color: rgb(243, 246, 236);
+}
+
+.tel__email__oficina {
+  height: 150px;
 }
 
 /*MEDIA QUERIES*/

@@ -13,6 +13,7 @@
 
 
 .bg__main {
+    height: 900px;
     background-image: linear-gradient(rgba(5,7,12,0.50), rgba(5,7,12,0.50)),
     url(../assets/contacto/fondomaincontacto.jpg);
     background-position: center;
@@ -21,7 +22,6 @@
 }
 
 .container__formulario {
-    margin-top: 50px;
     @include sizes (500px, 550px);
     padding: 50px;
     box-shadow: $shadow-title;
@@ -58,4 +58,12 @@
     margin-bottom: 10px;
     color: aliceblue;
     font-size: 18px;    
+}
+
+.info__general {
+    background-color: rgb(243, 246, 236);
+}
+
+.tel__email__oficina {
+    height: 150px;
 }

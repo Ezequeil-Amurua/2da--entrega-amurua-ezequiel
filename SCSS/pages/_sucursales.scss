@@ -6,6 +6,7 @@
     animation-timing-function: ease-out;
 }
 .container__sucursales {
+    border-radius: 25px;
     position: relative;
     height: 620px;
     overflow-y: scroll;
@@ -38,5 +39,16 @@
     border-radius: 5px;
     padding: 6px;
     margin-top: 15px;
+}
+
+.bg__expo {
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(104, 102, 102);
+}
+
+.expo__vete {
+    border-radius: 5px;
+    box-shadow: $shadow-title;
 }
 /*PAGINA SUCURSALES*/
