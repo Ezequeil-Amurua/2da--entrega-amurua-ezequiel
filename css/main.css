@@ -61,6 +61,13 @@ ul, ol {
 
 /*CAROUSEL*/
 /*SECTION INFO GRAL - ENVIOS ETC..*/
+.contact__center {
+  height: 35px;
+}
+.contact__center:hover {
+  cursor: pointer;
+}
+
 .box__info {
   padding: 20px;
 }
@@ -498,8 +505,8 @@ ul, ol {
 }
 
 .bg__main {
-  height: 900px;
-  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/contacto/fondomaincontacto.jpg);
+  height: 1000px;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/contacto/fondocontactoxl.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -552,9 +559,6 @@ ul, ol {
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 992px) {
   /*PAGE HOME*/
-  .box__info {
-    display: none;
-  }
   .container__galeria {
     width: 90%;
   }
@@ -569,6 +573,9 @@ ul, ol {
   }
   .navbar__eze {
     height: auto;
+  }
+  .d__none {
+    display: none;
   }
   .filas__galerias {
     margin: 25px 10px;
@@ -603,7 +610,7 @@ ul, ol {
 @media only screen and (max-width: 576px) {
   /*PAGE CONTACTO*/
   .container__formulario {
-    width: 90%;
+    width: 95%;
     height: 90vh;
   }
   .container__formulario {
@@ -621,16 +628,39 @@ ul, ol {
   .logo__form {
     margin-bottom: 20px;
   }
+  .bg__main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/contacto/fondoformulario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tel__email__oficina {
+    height: 100px;
+  }
   /*PAGE HOME*/
   .navbar__eze {
     height: auto;
   }
-  .container__animals {
+  .contact__center {
+    height: 24px;
+  }
+  .d__none {
+    display: none;
+  }
+  .box__info {
     padding: 15px;
+  }
+  .info__col p {
+    font-size: 12px;
+  }
+  .container__animals {
+    padding: 10px;
     margin: 0;
   }
   .container__animals .cachorros {
-    padding: 10px;
+    height: auto;
+    padding: 8px;
   }
   .registrate__input {
     width: 190px;

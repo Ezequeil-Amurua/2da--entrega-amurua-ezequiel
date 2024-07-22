@@ -2,10 +2,6 @@
 
 @media only screen and (max-width: 992px) {
     /*PAGE HOME*/
-    .box__info {
-        display: none;
-    }
-
     .container__galeria {
         width: 90%;
     }
@@ -23,7 +19,9 @@
      .navbar__eze {
         height: auto;
     }
-
+    .d__none {
+        display: none;
+    }
     .filas__galerias {
         margin: 25px 10px;     
     }
@@ -62,7 +60,7 @@
 @media only screen and (max-width: 576px) {
     /*PAGE CONTACTO*/
     .container__formulario {
-        width: 90%;
+        width: 95%;
         height: 90vh;
     }   
 
@@ -86,16 +84,42 @@
         margin-bottom: 20px;    
     }
 
+    .bg__main {
+        height: 100vh;
+        background-image: linear-gradient(rgba(5,7,12,0.50), rgba(5,7,12,0.50)),
+        url(../assets/contacto/fondoformulario.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tel__email__oficina {
+        height: 100px;
+    }
+
     /*PAGE HOME*/
     .navbar__eze {
         height: auto;
     }
+    .contact__center {
+        height: 24px;
+    }
+    .d__none {
+        display: none;
+    }
+    .box__info {
+        padding: 15px;
+    }
 
+    .info__col p {
+        font-size: 12px;
+    }
     .container__animals {
-        @include rellenos (15px, 0);
+        @include rellenos (10px, 0);
 
         .cachorros {
-            padding: 10px;
+            height: auto;
+            padding: 8px;
         }
     }
     

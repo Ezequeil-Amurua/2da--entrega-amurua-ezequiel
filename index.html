@@ -4,7 +4,7 @@
     <!--METADATOS-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="">
+    <meta name="description" content="" />
     <!--TITLE-->
     <title>Home | All For Pets</title>
     <!--BOOTSTRAP-->
@@ -27,9 +27,7 @@
     <div class="container-fluid g-0">
       <!--HEADER -START-->
       <header>
-        <nav
-          class="navbar navbar-expand-lg bg-dark navbar-dark navbar__eze px-3"
-        >
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar__eze">
           <a class="navbar-brand" href="./index.html">
             <img
               class="logo mx-3 rounded-circle"
@@ -39,7 +37,7 @@
           </a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mx-3"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -143,6 +141,20 @@
 
       <!--SECTION INFO GRAL - START-->
       <section>
+        <article>
+          <div class="row bg-primary contact__center">
+            <div class="col d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-phone text-white mx-2"></i>
+              <p class="text-white fw-bold">0800-333-1212</p>
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+              <i class="fa-brands fa-whatsapp text-white mx-2"></i>
+              <p class="text-white fw-bold">11 5554 5554</p>
+            </div>
+          </div>
+        </article>
+
         <article class="row g-0 bg-dark text-white box__info">
           <div class="col-sm-12 col-md-12 col-lg-4 info__col">
             <img
@@ -156,9 +168,12 @@
             </p>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 info__col">
+          <div class="col-lg-4 col-md-6 info__col d__none">
             <i class="fa-solid fa-store"></i>
-            <a class="text-white text-decoration-none" href="./pages/sucursales.html">
+            <a
+              class="text-white text-decoration-none"
+              href="./pages/sucursales.html"
+            >
               <p>
                 Retiro gratis en cualquiera <br />
                 de nuestras sucursales
@@ -166,7 +181,7 @@
             </a>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 info__col">
+          <div class="col-lg-4 col-md-12 info__col d__none">
             <i class="fa-solid fa-truck-fast"></i>
             <p>
               Envío en el día en CABA y GBA <br />
@@ -183,9 +198,9 @@
           <div class="col d-flex justify-content-center">
             <a href="./pages/perros.html">
               <img
-              class="cachorros img-fluid"
-              src="./assets/animals/animals-golden.jpg"
-              alt="Golden cachorro"
+                class="cachorros img-fluid"
+                src="./assets/animals/animals-golden.jpg"
+                alt="Golden cachorro"
               />
             </a>
           </div>
@@ -200,11 +215,10 @@
 
           <div class="col d-flex justify-content-center">
             <a href="./pages/gatos.html">
-
               <img
-              class="cachorros img-fluid"
-              src="./assets/animals/gato.jpg"
-              alt="Gato"
+                class="cachorros img-fluid"
+                src="./assets/animals/gato.jpg"
+                alt="Gato"
               />
             </a>
           </div>
@@ -231,7 +245,7 @@
       <!--MAIN - GALERIA - START-->
       <main>
         <section class="row g-4 filas__galerias">
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/dogchow.jpg"
@@ -247,7 +261,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/excellent smart.png"
@@ -268,7 +282,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/kitten.png"
@@ -284,7 +298,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/pedigree.jpg"
@@ -305,7 +319,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/oldprince.jpg"
@@ -328,7 +342,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/catchow.jpg"
@@ -344,7 +358,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/oldprincepremium.png"
@@ -366,7 +380,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-4">
             <article class="card card__eze">
               <img
                 src="./assets/nutrique-perro.png"
@@ -383,6 +397,87 @@
             </article>
           </div>
         </section>
+
+        <!--PRODUCTOS DESTACADOS-->
+        <section class="bg-dark p-5">
+          <div class="row mb-5 bg__promos p-2">
+            <h4 class="text-white text-center">PRODUCTOS DESTACADOS!</h4>
+          </div>
+
+          <div class="row p-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  src="../assets/dogchow.jpg"
+                  class="card-img-top"
+                  alt="Dog chow cachorros"
+                />
+                <div class="card-body text-center p-2">
+                  <h3 class="card-title">
+                    Dog Chow Cachorros Pequeños X 1.5Kg
+                  </h3>
+                  <a href="#" class="btn btn-primary card__button w-100"
+                    >$ 6.500,50</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  src="../assets/proplanadulto.png"
+                  class="card-img-top"
+                  alt="Pro plan active mind"
+                />
+                <div class="card-body text-center p-2">
+                  <h3 class="card-title">Pro Plan Active Mind 3Kg</h3>
+                  <a href="#" class="btn btn-primary card__button w-100"
+                    >$ 24.200</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  src="../assets/oldprince2.jpg"
+                  class="card-img-top"
+                  alt="Old Prince Light"
+                />
+                <div class="card-body text-center p-2">
+                  <h3 class="card-title">Old Prince Cordero Light 3Kg</h3>
+                  <a href="#" class="btn btn-primary card__button w-100"
+                    >$ 16.100</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  src="../assets/pedigree.jpg"
+                  class="card-img-top"
+                  alt="Pedigree Adultos"
+                />
+                <span class="off"> NUEVO 30% OFF</span>
+                <div class="card-body text-center p-2">
+                  <span class="off__envio__perros">
+                    Envío <br />
+                    Gratis</span
+                  >
+                  <h3 class="card-title">Pedigree Adultos X 21Kg</h3>
+                  <a href="#" class="btn btn-primary card__button w-100"
+                    >$ 32.700,60</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--PRODUCTOS DESTACADOS-->
       </main>
       <!--MAIN - GALERIA - END-->
 

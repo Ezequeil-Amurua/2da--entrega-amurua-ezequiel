@@ -37,6 +37,13 @@
 
 
 /*SECTION INFO GRAL - ENVIOS ETC..*/
+.contact__center {
+    height: 35px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
 .box__info {
     padding: 20px;
 }
@@ -76,8 +83,6 @@
         border: 3px solid $back-primary;
     }
 }
-
-
 /*SECTION ANIMALS*/
 
 
