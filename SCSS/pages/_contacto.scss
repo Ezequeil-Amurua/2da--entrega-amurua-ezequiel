@@ -66,5 +66,17 @@
 }
 
 .tel__email__oficina {
-    height: 150px;
+    height: 125px;
+}
+
+.quienes__somos img {
+    @include sizes (300px, 220px);
+    border-radius: 5px;
+    box-shadow: $nav-link 0px 1px 4px; 
+}
+
+.quienes__somos iframe {
+    @include sizes (300px, 220px);
+    border-radius: 5px;
+    box-shadow: $nav-link 0px 1px 4px; 
 }

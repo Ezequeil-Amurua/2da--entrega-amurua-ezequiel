@@ -237,9 +237,11 @@ ul, ol {
   padding: 6px;
   margin: 10px;
   border-radius: 10px;
+  box-shadow: #56d1da 0px 1px 1px;
 }
 .registrate__input:focus {
   outline: none;
+  box-shadow: #56d1da 0px 1px 4px;
 }
 
 /*REGISTRATE*/
@@ -259,9 +261,8 @@ ul, ol {
 }
 .footer__box ul li:hover {
   cursor: pointer;
-  color: #198754;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
-  padding: 4px;
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .footer__box__mapa {
@@ -554,7 +555,21 @@ ul, ol {
 }
 
 .tel__email__oficina {
-  height: 150px;
+  height: 125px;
+}
+
+.quienes__somos img {
+  width: 300px;
+  height: 220px;
+  border-radius: 5px;
+  box-shadow: #56d1da 0px 1px 4px;
+}
+
+.quienes__somos iframe {
+  width: 300px;
+  height: 220px;
+  border-radius: 5px;
+  box-shadow: #56d1da 0px 1px 4px;
 }
 
 /*MEDIA QUERIES*/
@@ -606,6 +621,17 @@ ul, ol {
   }
   .container__sucursales__iframe iframe {
     margin-left: 0px;
+  }
+  /*PAGE CONTACTO*/
+  .quienes__somos h4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .quienes__somos button {
+    margin: 25px 0;
+  }
+  .quienes__somos img {
+    height: auto;
   }
 }
 @media only screen and (max-width: 576px) {

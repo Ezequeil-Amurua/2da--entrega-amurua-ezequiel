@@ -219,9 +219,11 @@
     width: 280px;
     @include rellenos (6px, 10px);
     border-radius: 10px;
+    box-shadow: $nav-link 0px 1px 1px; 
 
     &:focus {
         outline: none;
+        box-shadow: $nav-link 0px 1px 4px; 
     }
 }
 /*REGISTRATE*/
@@ -244,9 +246,8 @@
             
             &:hover {
                 cursor: pointer;
-                color: $btn;
                 box-shadow: $shadow-title;
-                padding: 4px;
+                transform: scale(1.02);
                 border-radius: 10px;
             }
         }
