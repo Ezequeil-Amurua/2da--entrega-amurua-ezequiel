@@ -610,6 +610,10 @@ ul, ol {
     margin: 0 5px;
   }
   /*PAGE SERVICIOS*/
+  .container__veterinaria img {
+    height: auto;
+    margin-bottom: 15px;
+  }
   .container__especialidades {
     flex-direction: column;
   }
@@ -626,6 +630,9 @@ ul, ol {
   .quienes__somos h4 {
     text-align: center;
     margin: 25px 0;
+  }
+  .quienes__somos p {
+    text-align: center;
   }
   .quienes__somos button {
     margin: 25px 0;
