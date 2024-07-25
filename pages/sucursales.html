@@ -25,9 +25,7 @@
     <div class="container-fluid g-0">
       <!--HEADER - START-->
       <header>
-        <nav
-          class="navbar navbar-expand-lg bg-dark navbar-dark navbar__eze px-3"
-        >
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar__eze">
           <a class="navbar-brand" href="../index.html">
             <img
               class="logo mx-3 rounded-circle"
@@ -37,7 +35,7 @@
           </a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mx-3"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -94,50 +92,74 @@
               class="col-lg-5 d-flex flex-column container__sucursales my-4 bg-dark"
             >
               <article>
-                <h2 class="text-primary">Congreso</h2>
+                <h2 class="text-primary fw-bold card__eze">Congreso</h2>
                 <p>Calle 3, N°1553, Buenos Aires</p>
                 <p>Abierta todos los días y feriados de 9:00 a 21:00 hs.</p>
-                <div class="sucursales__icons">
-                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                  <p>11-6133-6340</p>
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <p>11-2124-4849</p>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-solid fa-phone mx-2" aria-hidden="true"></i>
+                  <p>11 4133-6340</p>
+                </div>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-brands fa-whatsapp mx-2"></i>
+                  <p>11 2124-4849</p>
+                </div>
+                <div class="sucursales__icons justify-content-center bg-dark">
+                  <i class="fa-solid fa-hospital mx-2 text-primary fw-bold"></i>
+                  <p class="text-primary fw-bold">10:00 - 20:00hs</p>
                 </div>
               </article>
 
               <article>
-                <h2 class="text-primary">Abasto Shopping</h2>
+                <h2 class="text-primary fw-bold card__eze">Abasto Shopping</h2>
                 <p>Calle 10, N°568, Buenos Aires</p>
                 <p>Abierta todos los días y feriados de 10:00 a 22:00 hs.</p>
-                <div class="sucursales__icons">
-                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                  <p>11-6891-6260</p>
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <p>11-4524-4443</p>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-solid fa-phone mx-2" aria-hidden="true"></i>
+                  <p>11 4133-6340</p>
+                </div>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-brands fa-whatsapp mx-2"></i>
+                  <p>11 2124-4849</p>
+                </div>
+                <div class="sucursales__icons justify-content-center bg-dark">
+                  <i class="fa-solid fa-hospital mx-2 text-primary fw-bold"></i>
+                  <p class="text-primary fw-bold">Guardia 24:00hs</p>
                 </div>
               </article>
 
               <article>
-                <h2 class="text-primary">Cañitas</h2>
+                <h2 class="text-primary fw-bold card__eze">Cañitas</h2>
                 <p>Calle 156, N°9225, Buenos Aires</p>
                 <p>Abierta todos los días y feriados de 9:00 a 21:00 hs.</p>
-                <div class="sucursales__icons">
-                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                  <p>11-2454-5540</p>
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <p>11-8989-4565</p>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-solid fa-phone mx-2" aria-hidden="true"></i>
+                  <p>11 4133-6340</p>
+                </div>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-brands fa-whatsapp mx-2"></i>
+                  <p>11 2124-4849</p>
+                </div>
+                <div class="sucursales__icons justify-content-center bg-dark">
+                  <i class="fa-solid fa-hospital mx-2 text-primary fw-bold"></i>
+                  <p class="text-primary fw-bold">08:00 - 21:00hs</p>
                 </div>
               </article>
 
               <article>
-                <h2 class="text-primary">Olivos</h2>
+                <h2 class="text-primary fw-bold card__eze">Olivos</h2>
                 <p>Calle 26, N°596, Buenos Aires</p>
                 <p>Abierta todos los días y feriados de 9:00 a 21:00 hs.</p>
-                <div class="sucursales__icons">
-                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                  <p>11-1625-2450</p>
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <p>11-5255-8985</p>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-solid fa-phone mx-2" aria-hidden="true"></i>
+                  <p>11 4133-6340</p>
+                </div>
+                <div class="sucursales__icons justify-content-center">
+                  <i class="fa-brands fa-whatsapp mx-2"></i>
+                  <p>11 2124-4849</p>
+                </div>
+                <div class="sucursales__icons justify-content-center bg-dark">
+                  <i class="fa-solid fa-hospital mx-2 text-primary fw-bold"></i>
+                  <p class="text-primary fw-bold">Guardia 24:00hs</p>
                 </div>
               </article>
             </div>
@@ -154,9 +176,72 @@
             </div>
           </section>
 
+          <!--DROPDOWNS-->
+          <section>
+            <div class="row">
+              <div class="dropdown mb-2">
+                <button
+                  class="btn btn-secondary dropdown-toggle fw-bold fs-5 w-100"
+                  id="eze__dropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Atención al cliente
+                </button>
+
+                <ul class="dropdown-menu w-100">
+                  <li>
+                    <a
+                      href="./contacto.html#quienes-somos"
+                      class="dropdown-item fw-bold"
+                      >Quiénes somos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Política de privacidad</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Términos y condiciones</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Trabajá con nosotros</a>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Contáctanos</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown mb-2">
+                <button
+                  class="btn btn-secondary dropdown-toggle fw-bold fs-5 w-100"
+                  id="eze__dropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Compra Online
+                </button>
+
+                <ul class="dropdown-menu w-100">
+                  <li><a href="#" class="dropdown-item fw-bold">Cómo comprar</a></li>
+                  <li><a href="#" class="dropdown-item">Envíos</a></li>
+                  <li><a href="#" class="dropdown-item">Medios de pago</a></li>
+                  <li>
+                    <a href="#" class="dropdown-item">Cambios y devoluciones</a>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="btn__arrepentido">
+                <a class="text-primary fw-bold fs-5" href="#"
+                  >Boton de arrepentimiento</a
+                >
+              </button>
+            </div>
+          </section>
+          <!--DROPDOWNS-->
+
           <!--EXPO VETERINARIA-->
           <section class="container mt-5">
-            <h3 class="bg-danger text-center especialidades__title">
+            <h3 class="bg-danger text-center especialidades__title card__eze">
               Expo 2024!
             </h3>
             <div class="row g-0 mt-5">
@@ -186,11 +271,11 @@
             class="col-sm-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-center"
           >
             <input
-              class="registrate__input bg-azulado"
+              class="registrate__input bg-azulado px-2"
               type="email"
               placeholder="Ingresá tu email"
             />
-            <button class="btn btn-success" type="button">Suscribirme</button>
+            <button class="btn btn-primary" type="button">Suscribirme</button>
           </div>
         </div>
       </section>

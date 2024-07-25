@@ -9,15 +9,15 @@
     .box__marcas {
         display: none;
     }
-
-    .logo {
-        width: 70px !important;
-    }
     .carousel-inner, .container__contactanos {
-        margin-top: 96px;
+        margin-top: 86px;
     }
      .navbar__eze {
         height: auto;
+
+        .logo {
+            width: 70px;
+        }
     }
     .d__none {
         display: none;
@@ -32,7 +32,7 @@
 
     /*PAGE PERROS*/
     .banner__perro__gato {
-        margin-top: 96px;
+        margin-top: 86px;
     }
     .barra__lateral {
         display: none;
@@ -44,6 +44,9 @@
     .container__veterinaria img {
         height: auto;
         margin-bottom: 15px;
+    }
+    .container__veterinaria img:first-child {
+        margin-top: 30px;
     }
     .container__especialidades {
         flex-direction: column;
@@ -117,6 +120,10 @@
     /*PAGE HOME*/
     .navbar__eze {
         height: auto;
+
+        .logo {
+            width: 60px;
+        }
     }
     .contact__center {
         height: 24px;

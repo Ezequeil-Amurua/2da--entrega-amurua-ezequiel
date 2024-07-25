@@ -480,6 +480,12 @@ ul, ol {
   margin-top: 15px;
 }
 
+.btn__arrepentido {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px;
+}
+
 .bg__expo {
   border-radius: 5px;
   margin-bottom: 50px;
@@ -581,14 +587,14 @@ ul, ol {
   .box__marcas {
     display: none;
   }
-  .logo {
-    width: 70px !important;
-  }
   .carousel-inner, .container__contactanos {
-    margin-top: 96px;
+    margin-top: 86px;
   }
   .navbar__eze {
     height: auto;
+  }
+  .navbar__eze .logo {
+    width: 70px;
   }
   .d__none {
     display: none;
@@ -601,7 +607,7 @@ ul, ol {
   }
   /*PAGE PERROS*/
   .banner__perro__gato {
-    margin-top: 96px;
+    margin-top: 86px;
   }
   .barra__lateral {
     display: none;
@@ -613,6 +619,9 @@ ul, ol {
   .container__veterinaria img {
     height: auto;
     margin-bottom: 15px;
+  }
+  .container__veterinaria img:first-child {
+    margin-top: 30px;
   }
   .container__especialidades {
     flex-direction: column;
@@ -675,6 +684,9 @@ ul, ol {
   /*PAGE HOME*/
   .navbar__eze {
     height: auto;
+  }
+  .navbar__eze .logo {
+    width: 60px;
   }
   .contact__center {
     height: 24px;
